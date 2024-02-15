@@ -1,0 +1,70 @@
+\documentclass[openany]{book}
+
+\input{MyTools.tex}
+
+\definecolor{cover}{RGB}{255, 0, 0} 
+
+\setlength{\arrayrulewidth}{.06mm}
+\renewcommand{\arraystretch}{2}
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}c@{}}#2\end{tabular}}
+\definecolor{darkgreen}{RGB}{24, 100, 45} 
+
+\usepackage{arabtex}
+\usepackage{utf8}
+\usepackage{minted}
+\usepackage{fancyhdr}
+\usepackage{tabularray}
+\setcode{utf8}
+\raggedbottom
+
+
+\newenvironment{AR}{
+  \begin{RLtext}
+        }{
+  \end{RLtext}
+}
+\usepackage[T1]{fontenc}
+\begin{document}
+\pagestyle{fancy}
+%\include{PART1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapterimage{chapters_cover.jpg}
+\chapter{Object Oriented Programming (OOP)}
+\thispagestyle{empty}
+\section{Introduction}
+\subsection{what is package}
+\subsection{what is Class}
+\subsection{what is Object}
+\section{Getting Started with OOP}
+\subsection{Create Class}
+\subsection{Create Object from Class}
+\subsection{Class with Atrributes}
+\subsection{Class with Methods}
+\section{Encapsolation(access modifiers)}
+\section{Constractor with/out parameters}
+\section{polymorphism}
+\section{OverLoad}
+\section{Override}
+\section{inheritance}
+\section{Abstraction}
+\section{Interface}
+\section{static methods}
+\section{Nested class}
+\section{Generic class}
+\section{Anonymous class}
+\section{Enum}
+\section{Threads}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\LR{}
+\begin{AR}
+
+\end{AR}
+\begin{minted}[escapeinside=||]{java}
+  
+\end{minted}
+
+\end{document}

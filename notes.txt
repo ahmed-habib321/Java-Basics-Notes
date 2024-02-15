@@ -1,0 +1,61 @@
+  \begin{definition}{\RL{}}
+    \begin{AR}
+     
+    \end{AR}
+  \end{definition}
+
+
+  \begin{example}
+    \RL{}
+    \begin{center}
+      ------ \textcolor{Solution}{Solution} ------ 
+    \end{center}      
+  \end{example}
+
+\\
+\ \ \LR{\textcolor{theme}{- 1}}    
+\\
+\ \ \LR{\textcolor{theme}{- 2}}    
+\\
+\ \ \LR{\textcolor{theme}{- 3}}    
+\\
+\ \ \LR{\textcolor{theme}{- 4}}    
+\\
+\ \ \LR{\textcolor{theme}{- 5}}    
+
+\\
+\ \ \LR{\textcolor{theme}{•}}
+\ \ \LR{\textcolor{theme}{-}}
+
+
+\begin{minipage}[h]{1\textwidth}
+\end{minipage} 
+
+
+\begin{center}
+      ------ \textcolor{Solution}{Solution} ------ 
+\end{center} 
+
+
+\begin{minipage}[h]{1\textwidth}
+  \begin{example}
+    \RL{
+    قم باخذ رقم من المستخدم و اطبع له اذا كان هذا الرقم فردي ام زوجي
+    }
+    \begin{center}
+      ------ \textcolor{Solution}{Solution} ------ 
+    \end{center} 
+
+    \begin{minted}[escapeinside=||]{java}
+    
+    \end{minted}
+  \end{example}
+\end{minipage}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+exam:
+    postfix , prefix examples (++x++ , y = ++x + x++)
+    escape seq
+    assiment operators
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
